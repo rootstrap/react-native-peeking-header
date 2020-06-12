@@ -1,0 +1,30 @@
+{
+  "name": "react-native-peeking-header",
+  "version": "1.0.0",
+  "description": "React native header that hides when scrolling down and shows when scrolling up.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "files": [
+    "index.js",
+    "README.md"
+  ],
+  "keywords": [
+    "react-native",
+    "header",
+    "scrolling",
+    "hiding"
+  ],
+  "devDependencies": {
+    "eslint": "7.2.0",
+    "eslint-plugin-react": "^7.20.0"
+  },
+  "peerDependencies": {
+    "react-native": "^0.60.0",
+    "prop-types": "^15.7.2",
+    "react": "^16.8.0"
+  },
+  "author": "Pedro Zunino",
+  "license": "MIT"
+}
