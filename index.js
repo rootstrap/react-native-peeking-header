@@ -1,6 +1,6 @@
 import React, { useState, useRef } from 'react'
 import { func, node } from 'prop-types'
-import { Animated, View, ViewPropTyops } from 'react-native'
+import { Animated, View, ViewPropTypes, StyleSheet } from 'react-native'
 
 const AnimatedHeaderScrollView = ({ children, renderHeader, style }) => {
   const scrollY = useRef(new Animated.Value(0)).current
@@ -62,7 +62,7 @@ const AnimatedHeaderScrollView = ({ children, renderHeader, style }) => {
 
 AnimatedHeaderScrollView.propTypes = {
   children: node,
-  style: ViewPropTyops.style,
+  style: ViewPropTypes.style,
   renderHeader: func,
 }
 

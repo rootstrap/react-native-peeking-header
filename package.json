@@ -1,6 +1,6 @@
 {
   "name": "react-native-peeking-header",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "React native header that hides when scrolling down and shows when scrolling up.",
   "main": "index.js",
   "scripts": {
